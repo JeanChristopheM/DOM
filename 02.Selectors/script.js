@@ -5,7 +5,7 @@ for (item of importantItems) {
 
 let images = document.querySelectorAll('img');
 for (item of images) {
-    if(item.classList.contains('important')) {
+    if(!item.classList.contains('important')) {
         item.style.display = "none";
     }
 }

@@ -60,3 +60,7 @@ const pressedAKey = (e) => {
 }
 
 body.addEventListener('keypress', pressedAKey);
+
+document.addEventListener('click', (e) => {
+  if (e.target.classList[0] == "displayedsquare") alert(e.target.classList[1]);
+});

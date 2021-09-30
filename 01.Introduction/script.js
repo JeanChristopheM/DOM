@@ -4,6 +4,7 @@ console.log(document.title);
 for (item of document.children[0].children[1].children) {
     console.log(item);
 }
+
 const rand = (max) => {
     return Math.floor(Math.random() * max +1);
 }
